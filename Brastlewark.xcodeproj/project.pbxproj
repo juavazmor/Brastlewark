@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DBC217F20B208A8007FACB9 /* Filters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBC217E20B208A8007FACB9 /* Filters.swift */; };
+		2DBC218120B22605007FACB9 /* SelectableFiltersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBC218020B22605007FACB9 /* SelectableFiltersTableViewController.swift */; };
+		2DBEE3A320B1EE6100168D3C /* FiltersCustomizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBEE3A220B1EE6100168D3C /* FiltersCustomizationViewController.swift */; };
+		2DCBA5D020ADBC7300138AC9 /* GnomesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCBA5CF20ADBC7300138AC9 /* GnomesListViewController.swift */; };
+		2DCBA5D220ADBD2000138AC9 /* Gnome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCBA5D120ADBD2000138AC9 /* Gnome.swift */; };
+		2DCBA5D420ADC75100138AC9 /* GnomesDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCBA5D320ADC75100138AC9 /* GnomesDataProvider.swift */; };
+		2DCBA5D620ADD3E300138AC9 /* GnomeProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCBA5D520ADD3E300138AC9 /* GnomeProfileViewController.swift */; };
+		2DCDA38820B3FC7E00F3E207 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCDA38720B3FC7E00F3E207 /* AppConfig.swift */; };
+		2DDFC1C320AD8D7500FA2CF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDFC1C220AD8D7500FA2CF0 /* AppDelegate.swift */; };
+		2DDFC1C820AD8D7500FA2CF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DDFC1C620AD8D7500FA2CF0 /* Main.storyboard */; };
+		2DDFC1CA20AD8D7500FA2CF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DDFC1C920AD8D7500FA2CF0 /* Assets.xcassets */; };
+		2DDFC1CD20AD8D7500FA2CF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DDFC1CB20AD8D7500FA2CF0 /* LaunchScreen.storyboard */; };
+		2DFA7B6020B43E2B002E4CED /* GnomeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFA7B5F20B43E2B002E4CED /* GnomeRepository.swift */; };
+		CDBA2BE908A53637382E3A49 /* Pods_Brastlewark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DFBAF3A11389F80C6F8E4B6 /* Pods_Brastlewark.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1DFBAF3A11389F80C6F8E4B6 /* Pods_Brastlewark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Brastlewark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DBC217E20B208A8007FACB9 /* Filters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filters.swift; sourceTree = "<group>"; };
+		2DBC218020B22605007FACB9 /* SelectableFiltersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableFiltersTableViewController.swift; sourceTree = "<group>"; };
+		2DBEE3A220B1EE6100168D3C /* FiltersCustomizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersCustomizationViewController.swift; sourceTree = "<group>"; };
+		2DCBA5CF20ADBC7300138AC9 /* GnomesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnomesListViewController.swift; sourceTree = "<group>"; };
+		2DCBA5D120ADBD2000138AC9 /* Gnome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gnome.swift; sourceTree = "<group>"; };
+		2DCBA5D320ADC75100138AC9 /* GnomesDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnomesDataProvider.swift; sourceTree = "<group>"; };
+		2DCBA5D520ADD3E300138AC9 /* GnomeProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnomeProfileViewController.swift; sourceTree = "<group>"; };
+		2DCDA38720B3FC7E00F3E207 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		2DDFC1BF20AD8D7500FA2CF0 /* Brastlewark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brastlewark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DDFC1C220AD8D7500FA2CF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2DDFC1C720AD8D7500FA2CF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DDFC1C920AD8D7500FA2CF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DDFC1CC20AD8D7500FA2CF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2DDFC1CE20AD8D7500FA2CF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DFA7B5F20B43E2B002E4CED /* GnomeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnomeRepository.swift; sourceTree = "<group>"; };
+		F665CB3C8A8075503D84DC32 /* Pods-Brastlewark.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brastlewark.release.xcconfig"; path = "Pods/Target Support Files/Pods-Brastlewark/Pods-Brastlewark.release.xcconfig"; sourceTree = "<group>"; };
+		F7C88423870466EE7B1987CC /* Pods-Brastlewark.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brastlewark.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Brastlewark/Pods-Brastlewark.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DDFC1BC20AD8D7500FA2CF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDBA2BE908A53637382E3A49 /* Pods_Brastlewark.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F5A539B97BD076937058A1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DFBAF3A11389F80C6F8E4B6 /* Pods_Brastlewark.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2DBC218220B2C46B007FACB9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2DCBA5D120ADBD2000138AC9 /* Gnome.swift */,
+				2DBC217E20B208A8007FACB9 /* Filters.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2DBC218320B2C47E007FACB9 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				2DCBA5D320ADC75100138AC9 /* GnomesDataProvider.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		2DBC218420B2C489007FACB9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2DDFC1C620AD8D7500FA2CF0 /* Main.storyboard */,
+				2DCBA5CF20ADBC7300138AC9 /* GnomesListViewController.swift */,
+				2DCBA5D520ADD3E300138AC9 /* GnomeProfileViewController.swift */,
+				2DBEE3A220B1EE6100168D3C /* FiltersCustomizationViewController.swift */,
+				2DBC218020B22605007FACB9 /* SelectableFiltersTableViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2DBC218520B2C49B007FACB9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2DDFC1C920AD8D7500FA2CF0 /* Assets.xcassets */,
+				2DDFC1CB20AD8D7500FA2CF0 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2DDFC1B620AD8D7500FA2CF0 = {
+			isa = PBXGroup;
+			children = (
+				2DDFC1C120AD8D7500FA2CF0 /* Brastlewark */,
+				2DDFC1C020AD8D7500FA2CF0 /* Products */,
+				DAC2C5FC6B3B2F399D595306 /* Pods */,
+				0F5A539B97BD076937058A1E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2DDFC1C020AD8D7500FA2CF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DDFC1BF20AD8D7500FA2CF0 /* Brastlewark.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DDFC1C120AD8D7500FA2CF0 /* Brastlewark */ = {
+			isa = PBXGroup;
+			children = (
+				2DFA7B5E20B43E12002E4CED /* Repository */,
+				2DBC218320B2C47E007FACB9 /* DataSource */,
+				2DBC218220B2C46B007FACB9 /* Model */,
+				2DBC218420B2C489007FACB9 /* View */,
+				2DBC218520B2C49B007FACB9 /* Resources */,
+				2DDFC1CE20AD8D7500FA2CF0 /* Info.plist */,
+				2DCDA38720B3FC7E00F3E207 /* AppConfig.swift */,
+				2DDFC1C220AD8D7500FA2CF0 /* AppDelegate.swift */,
+			);
+			path = Brastlewark;
+			sourceTree = "<group>";
+		};
+		2DFA7B5E20B43E12002E4CED /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				2DFA7B5F20B43E2B002E4CED /* GnomeRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		DAC2C5FC6B3B2F399D595306 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7C88423870466EE7B1987CC /* Pods-Brastlewark.debug.xcconfig */,
+				F665CB3C8A8075503D84DC32 /* Pods-Brastlewark.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DDFC1BE20AD8D7500FA2CF0 /* Brastlewark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DDFC1D120AD8D7500FA2CF0 /* Build configuration list for PBXNativeTarget "Brastlewark" */;
+			buildPhases = (
+				B35889E7A1C5D55F559ADA35 /* [CP] Check Pods Manifest.lock */,
+				2DDFC1BB20AD8D7500FA2CF0 /* Sources */,
+				2DDFC1BC20AD8D7500FA2CF0 /* Frameworks */,
+				2DDFC1BD20AD8D7500FA2CF0 /* Resources */,
+				EFFEE41D06CB64E6A1892820 /* [CP] Embed Pods Frameworks */,
+				52F4BC748F0F552683662113 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Brastlewark;
+			productName = Brastlewark;
+			productReference = 2DDFC1BF20AD8D7500FA2CF0 /* Brastlewark.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DDFC1B720AD8D7500FA2CF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Juan Diego Vazquez Moreno";
+				TargetAttributes = {
+					2DDFC1BE20AD8D7500FA2CF0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2DDFC1BA20AD8D7500FA2CF0 /* Build configuration list for PBXProject "Brastlewark" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DDFC1B620AD8D7500FA2CF0;
+			productRefGroup = 2DDFC1C020AD8D7500FA2CF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DDFC1BE20AD8D7500FA2CF0 /* Brastlewark */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DDFC1BD20AD8D7500FA2CF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DDFC1CD20AD8D7500FA2CF0 /* LaunchScreen.storyboard in Resources */,
+				2DDFC1CA20AD8D7500FA2CF0 /* Assets.xcassets in Resources */,
+				2DDFC1C820AD8D7500FA2CF0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52F4BC748F0F552683662113 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Brastlewark/Pods-Brastlewark-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B35889E7A1C5D55F559ADA35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Brastlewark-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFFEE41D06CB64E6A1892820 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Brastlewark/Pods-Brastlewark-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftRangeSlider/SwiftRangeSlider.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftRangeSlider.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Brastlewark/Pods-Brastlewark-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DDFC1BB20AD8D7500FA2CF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DFA7B6020B43E2B002E4CED /* GnomeRepository.swift in Sources */,
+				2DCDA38820B3FC7E00F3E207 /* AppConfig.swift in Sources */,
+				2DCBA5D220ADBD2000138AC9 /* Gnome.swift in Sources */,
+				2DCBA5D620ADD3E300138AC9 /* GnomeProfileViewController.swift in Sources */,
+				2DCBA5D420ADC75100138AC9 /* GnomesDataProvider.swift in Sources */,
+				2DDFC1C320AD8D7500FA2CF0 /* AppDelegate.swift in Sources */,
+				2DBEE3A320B1EE6100168D3C /* FiltersCustomizationViewController.swift in Sources */,
+				2DBC217F20B208A8007FACB9 /* Filters.swift in Sources */,
+				2DCBA5D020ADBC7300138AC9 /* GnomesListViewController.swift in Sources */,
+				2DBC218120B22605007FACB9 /* SelectableFiltersTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2DDFC1C620AD8D7500FA2CF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DDFC1C720AD8D7500FA2CF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2DDFC1CB20AD8D7500FA2CF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DDFC1CC20AD8D7500FA2CF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DDFC1CF20AD8D7500FA2CF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2DDFC1D020AD8D7500FA2CF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DDFC1D220AD8D7500FA2CF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7C88423870466EE7B1987CC /* Pods-Brastlewark.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7FDST273C;
+				INFOPLIST_FILE = Brastlewark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.altran.juandiego.Brastlewark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2DDFC1D320AD8D7500FA2CF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F665CB3C8A8075503D84DC32 /* Pods-Brastlewark.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7FDST273C;
+				INFOPLIST_FILE = Brastlewark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.altran.juandiego.Brastlewark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DDFC1BA20AD8D7500FA2CF0 /* Build configuration list for PBXProject "Brastlewark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DDFC1CF20AD8D7500FA2CF0 /* Debug */,
+				2DDFC1D020AD8D7500FA2CF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DDFC1D120AD8D7500FA2CF0 /* Build configuration list for PBXNativeTarget "Brastlewark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DDFC1D220AD8D7500FA2CF0 /* Debug */,
+				2DDFC1D320AD8D7500FA2CF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DDFC1B720AD8D7500FA2CF0 /* Project object */;
+}
